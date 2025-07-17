@@ -6,19 +6,17 @@
 
     <display-name>First_servlet</display-name>
 
-    <!-- Servlet Declaration -->
+
     <servlet>
-        <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>com.example.first_servlet.HelloServlet</servlet-class>
+        <servlet-name>StudentServlet</servlet-name>
+        <servlet-class>com.example.first_servlet.StudentServlet</servlet-class>
     </servlet>
 
-    <!-- Servlet Mapping -->
     <servlet-mapping>
-        <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/hello</url-pattern>
+        <servlet-name>StudentServlet</servlet-name>
+        <url-pattern>/StudentServlet</url-pattern>
     </servlet-mapping>
 
-    <!-- Welcome file (index.jsp) -->
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
